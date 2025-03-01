@@ -118,4 +118,39 @@ div .main-layout {
     border-radius: 50px;
 }
 
+.main-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.urgency-status {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.task-card {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    border-radius: 10px;
+    position: relative;
+}
+
+.task-card-task {
+    display: grid;
+    justify-content: right;
+    text-align: right;
+}
+
+.task-card-due {
+    margin-top: 1vh;
+}
+
+
 
