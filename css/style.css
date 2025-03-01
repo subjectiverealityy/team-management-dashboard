@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 2px solid black;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.body-container {
+    height: 100vh;
+    width: 100vw;
+    padding: 2vw;
+    display: flex;
+    gap: 1.5vw;
+}
+
+div {
+    background-color: hsla(0, 56%, 8%, 0.2);
+    height: 100%;
+    width: 100%;
+}
+
+div .main-layout {
+    border-radius: 15px;
+}
+
+.main-1 {
+    flex: initial;
+    width: 20%;
+}
+
+.vertical-layout {
+    display: grid;
+    grid-template-rows: 70px 20fr 30fr 55fr;
+    gap: 1.5vw;
+}
+
+
