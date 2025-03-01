@@ -1,18 +1,17 @@
-# Project Name
+# Team Management Dashboard
 
-Team Management Dashboard
+## Live Site
+https://subjectiverealityy.github.io/team-management-dashboard/
 
-# Description
+Figma Source File (used as inspiration) - https://www.figma.com/community/file/1225369401521950811
 
-This project showcases my ability to replicate images of UI designs.
-
-# Figma Source File (used as inspiration)
-
-https://www.figma.com/community/file/1225369401521950811
-
-# Features
+## Features
 - Grid Layout
 - Flexbox Layout
 - Semantic HTML
 - Wireframe ('create wireframe' commit)
 - Responsiveness
+- Figma/Image to UI
+
+## Progress Pictures
+![first commit "create wireframe"](progress screenshots/create wireframe.png)
