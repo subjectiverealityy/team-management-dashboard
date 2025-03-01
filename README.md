@@ -15,3 +15,4 @@ Figma Source File (used as inspiration) - https://www.figma.com/community/file/1
 
 ## Progress Pictures
 ![first commit "create wireframe"](progress screenshots/create wireframe.png)
+![second commit "create main-1 wireframe and add JavaScript functionality"] (progress screenshots/create main-1 wireframe and add JavaScript functionality.png)

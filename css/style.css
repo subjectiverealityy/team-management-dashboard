@@ -81,12 +81,41 @@ div .main-layout {
     margin-top: auto;
 }
 
-.nav-item.active {
+.nav-item.active, .nav-item:hover {
     background-color: #00000060;
 }
 
-.nav-item:last-child.active {
+.nav-item:last-child.active, .nav-item:last-child:hover {
     background-color: transparent;
+}
+
+.main-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 7vh;
+}
+
+.search-bar {
+    height: 70%;
+    width: 20vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%; 
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 2vh;
+    padding-right: 2vh;
+}
+
+.user-details img {
+    border-radius: 50px;
 }
 
 
