@@ -203,5 +203,41 @@ div .main-layout {
     place-items: center;
 }
 
+.main-5 {
+    padding: 2vh;
+    overflow: auto;
+}
+
+.employees-status-header {
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.time {
+    text-align: right;
+}
+
+.day-reading {
+    margin-bottom: 1vh;
+}
+
+table {
+    width: 100%;
+}
+
+thead, tbody {
+    height: 2vh;
+    text-align: center;
+}
+
+th, td {
+    padding: 2vh;
+}
+
+td .employee-image {
+    scale: 1.4;
+    margin: auto;
+}
 
 

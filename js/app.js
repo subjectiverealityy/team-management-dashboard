@@ -16,10 +16,10 @@ let scrolledtoEnd = false;
 scrollButton.addEventListener("click", () => {
     if (scrolledtoEnd) {
         scrollSection.scrollTo({ left: 0, behavior: "smooth" });
-        scrollButton.innerHTML = '<i class="fa-solid fa-chevron-left"></i>';
+        scrollButton.innerHTML = '<i class="fa-solid fa-chevron-right"></i>';
     } else {
         scrollSection.scrollTo({ left: scrollSection.scrollWidth, behavior: "smooth" });
-        scrollButton.innerHTML = '<i class="fa-solid fa-chevron-right"></i>';
+        scrollButton.innerHTML = '<i class="fa-solid fa-chevron-left"></i>';
     }
     scrolledtoEnd = !scrolledtoEnd
 });
