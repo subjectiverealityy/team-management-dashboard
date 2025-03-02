@@ -80,7 +80,7 @@ div .main-layout {
     gap: 10px;
     align-items: center;
     color: var(--light-color);
-    padding: 0 0.4vh
+    padding: 0 0.4vh;
 }
 
 .company-name {
@@ -130,6 +130,8 @@ div .main-layout {
 
 .nav-item:last-child.active, .nav-item:last-child:hover {
     background-color: transparent;
+    color: var(--light-color);
+    cursor: pointer;
 }
 
 /* main-2 */
