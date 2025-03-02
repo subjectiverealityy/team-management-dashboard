@@ -14,4 +14,8 @@ https://subjectiverealityy.github.io/team-management-dashboard/
 ## Progress Pictures
 See the 'progress-screenshots' folder.
 
+## Design Inspiration
 Figma UI File (used as inspiration) - https://www.figma.com/community/file/1225369401521950811
+
+## Upcoming Task
+add mobile menu

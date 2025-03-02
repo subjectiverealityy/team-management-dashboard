@@ -2,25 +2,52 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    outline: 2px solid black;
+}
+
+img, .employee-image {
+    outline: 2px solid var(--middle-color);
+}
+
+h1, h2, h3, p, div {
+    color: var(--dark-color)
+}
+
+.red {
+    color: var(--red);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.green {
+    color: var(--green);
+}
+
+:root {
+    --dark-color: hsl(199,95%,23%);
+    --light-color: hsl(0,0%,100%);
+    --middle-color: hsl(200,44%,84%);
+    --green: green;
+    --yellow: yellow;
+    --red: red;
 }
 
 body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    background-color: antiquewhite;
 }
 
 .body-container {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     padding: 2vw;
     display: flex;
     gap: 1.5vw;
+    background-color: var(--middle-color);
 }
 
 div {
-    background-color: hsla(0, 56%, 8%, 0.2);
     height: 100%;
     width: 100%;
 }
@@ -29,11 +56,15 @@ div .main-layout {
     border-radius: 15px;
 }
 
+/* main-1 */
+
 .main-1 {
     flex: initial;
     width: 20%;
     display: flex;
     flex-direction: column;
+    background-color: var(--dark-color);
+    color: var(--light-color)
 }
 
 .vertical-layout {
@@ -46,12 +77,23 @@ div .main-layout {
     flex: initial;
     height: 80px;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
+    color: var(--light-color);
+    padding: 0 0.4vh
+}
+
+.company-name {
+    color: var(--light-color);
 }
 
 .nav-pages {
     height: 100%;
+}
+
+.nav-pages a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .nav-list {
@@ -82,18 +124,22 @@ div .main-layout {
 }
 
 .nav-item.active, .nav-item:hover {
-    background-color: #00000060;
+    background-color: var(--light-color);
+    color: var(--dark-color);
 }
 
 .nav-item:last-child.active, .nav-item:last-child:hover {
     background-color: transparent;
 }
 
+/* main-2 */
+
 .main-2 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 7vh;
+    background-color: var(--light-color);
 }
 
 .search-bar {
@@ -104,6 +150,7 @@ div .main-layout {
     justify-content: space-between;
     align-items: center;
     padding: 0 1%; 
+    background-color: var(--middle-color);
 }
 
 .user-details {
@@ -118,9 +165,12 @@ div .main-layout {
     border-radius: 50px;
 }
 
+/* main-3 */
+
 .main-3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 1vh;
 }
 
 .urgency-status {
@@ -140,6 +190,7 @@ div .main-layout {
     padding: 1vh;
     border-radius: 10px;
     position: relative;
+    background-color: var(--light-color);
 }
 
 .task-card-task {
@@ -151,6 +202,8 @@ div .main-layout {
 .task-card-due {
     margin-top: 1vh;
 }
+
+/* main-4 */
 
 .main-4 {
     position: relative;
@@ -170,6 +223,7 @@ div .main-layout {
     padding: 2vh;
     max-width: 250px;
     border-radius: 10px;
+    background-color: var(--light-color);
 }
 
 .employee-images {
@@ -198,20 +252,23 @@ div .main-layout {
     right: 2vh;
     align-self: center;
     justify-content: center;
-    z-index: 200;
+    z-index: 2000;
     display: grid;
     place-items: center;
 }
 
+/* main-5 */
+
 .main-5 {
     padding: 2vh;
     overflow: auto;
+    background-color: var(--light-color);
 }
 
 .employees-status-header {
     display: flex;
     justify-content: space-between;
-    height: 5vh;
+    height: 70px;
 }
 
 .time {
@@ -240,4 +297,48 @@ td .employee-image {
     margin: auto;
 }
 
+.urgency-status.green {
+    background-color: var(--green);
+}
 
+.urgency-status.red {
+    background-color: var(--red);
+}
+
+.urgency-status.yellow {
+    background-color: var(--yellow);
+}
+
+@media (max-width: 600px) {
+
+
+    .main-1 {
+        display: none;
+    }
+
+    .search-bar {
+        width: 50vw;
+        margin-left: 2vh;
+        padding: 0 3vw;
+    }
+
+    .urgency-status {
+        height: 12px;
+        width: 12px;
+        margin-left: -12px;
+        margin-top: -12px;
+    }
+
+    .main-4 {
+        overflow-x: auto;
+    }
+
+    .main-4::-webkit-scrollbar {
+        display: none;
+    }
+
+    .department-scroll-button {
+        display: none;
+    }
+
+}
