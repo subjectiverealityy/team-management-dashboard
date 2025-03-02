@@ -14,7 +14,8 @@ Figma Source File (used as inspiration) - https://www.figma.com/community/file/1
 - Figma/Image to UI
 
 ## Progress Pictures
-![first commit](progress screenshots/create wireframe.png)
-![second commit](progress screenshots/create main-1 wireframe and add JavaScript functionality.png)
-![third commit](progress screenshots/create main-2 wireframe.png)
-![fourth commit](progress screenshots/create main-3 wireframe.png)
+![first commit](progress-screenshots/create wireframe.png)
+![second commit](progress-screenshots/create main-1 wireframe and add JavaScript functionality.png)
+![third commit](progress-screenshots/create main-2 wireframe.png)
+![fourth commit](progress-screenshots/create main-3 wireframe.png)
+![fifth commit] (progress-screenshots/create main-4 wireframe and add JavaScript functionality.png)

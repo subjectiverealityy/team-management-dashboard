@@ -152,5 +152,56 @@ div .main-layout {
     margin-top: 1vh;
 }
 
+.main-4 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    overflow-x: auto; /* Allows horizontal scrolling */
+    white-space: nowrap;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.department-card {
+    flex: 0 0 calc(20% - 10px);
+    display: grid;
+    grid-template-rows: 1fr 0.6fr 0.3fr 0.3fr;
+    height: 100%;
+    padding: 2vh;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+.employee-images {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+}
+
+.employee-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.department-tasks {
+    align-self: center;
+}
+
+.department-scroll-button {
+    height: 1.5vw;
+    width: 1.5vw;
+    border-radius: 50px;
+    position: fixed;
+    right: 2vh;
+    align-self: center;
+    justify-content: center;
+    z-index: 200;
+    display: grid;
+    place-items: center;
+}
+
 
 
