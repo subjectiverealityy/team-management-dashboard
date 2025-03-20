@@ -69,7 +69,7 @@ div .main-layout {
 
 .vertical-layout {
     display: grid;
-    grid-template-rows: 70px 20fr 30fr 55fr;
+    grid-template-rows: 70px 150px 200px auto;
     gap: 1.5vw;
 }
 
@@ -80,7 +80,7 @@ div .main-layout {
     gap: 10px;
     align-items: center;
     color: var(--light-color);
-    padding: 0 0.4vh;
+    padding: 50px 20px;
 }
 
 .company-name {
@@ -172,24 +172,24 @@ div .main-layout {
 .main-3 {
     display: flex;
     justify-content: space-between;
-    gap: 1vh;
+    gap: 10px;
 }
 
 .urgency-status {
-    height: 20px;
-    width: 20px;
+    height: 12px;
+    width: 12px;
     border-radius: 50px;
     z-index: 1;
     position: absolute;
-    margin-left: -20px;
-    margin-top: -20px;
+    margin-left: -15px;
+    margin-top: -15px;
 }
 
 .task-card {
     max-width: 350px;
     display: flex;
     flex-direction: column;
-    padding: 1vh;
+    padding: 10px;
     border-radius: 10px;
     position: relative;
     background-color: var(--light-color);
@@ -222,7 +222,7 @@ div .main-layout {
     display: grid;
     grid-template-rows: 1fr 0.6fr 0.3fr 0.3fr;
     height: 100%;
-    padding: 2vh;
+    padding: 10px;
     max-width: 250px;
     border-radius: 10px;
     background-color: var(--light-color);
@@ -234,6 +234,7 @@ div .main-layout {
     align-items: center;
     width: fit-content;
     gap: 10px;
+    margin-bottom: 15px;
 }
 
 .employee-image {
@@ -322,13 +323,6 @@ td .employee-image {
         width: 50vw;
         margin-left: 2vh;
         padding: 0 3vw;
-    }
-
-    .urgency-status {
-        height: 12px;
-        width: 12px;
-        margin-left: -12px;
-        margin-top: -12px;
     }
 
     .main-4 {
