@@ -1,7 +1,7 @@
 # Team Management Dashboard
 
 ![Team Management Dashboard](images/Team%20Management%20Dashboard%20(HTML,%20CSS,%20JavaScript).png)
-![Team Management Dashboard Demo Video](videos/Team%20Management%20Dashboard%20Demo%20Video.mp4) - To download the video, click on the link, then on 'View raw'
+![Team Management Dashboard Demo Video](videos/Team%20Management%20Dashboard%20Demo%20Video.mp4) - To download the video, click on the link, then on 'View raw'.
 
 ## Live Site Link
 https://subjectiverealityy.github.io/team-management-dashboard/
